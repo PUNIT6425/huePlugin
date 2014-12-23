@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:defaultValue=""
+        android:dialogTitle="@string/hue_plugin_create_username_input"
+        android:key="@string/hue_plugin_create_username_key"
+        android:summary="@string/hue_plugin_create_username_summary"
+        android:title="@string/hue_plugin_create_username_title" />
+
+    <EditTextPreference
+        android:defaultValue=""
+        android:dialogTitle="@string/hue_plugin_username_input"
+        android:key="@string/hue_plugin_username_key"
+        android:summary=""
+        android:title="@string/hue_plugin_username_title" />
+
+    <PreferenceScreen
+        android:key="@string/info_key"
+        android:summary="@string/info_summary"
+        android:title="@string/info_title" />
+
+</PreferenceScreen>

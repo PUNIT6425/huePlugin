@@ -4,5 +4,5 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.sonycsl.Kadecot.plugin.sample.SettingsActivity"
+    tools:context="com.ajimitei.kadecot.plugin.hue.SettingsActivity"
     tools:ignore="MergeRootFrame" />
